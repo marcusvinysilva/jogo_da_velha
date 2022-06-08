@@ -39,19 +39,19 @@ for(let letra of letras){
 
     if(tabuleiro[0][0] == tabuleiro[0][1] && tabuleiro[0][1] == tabuleiro[0][2]){
         ganhador = tabuleiro[0][0];
-    } else if(tabuleiro[1][0] == tabuleiro[1][1] &&  tabuleiro[1][1] == tabuleiro[1][2]){
+    } else if(tabuleiro[1][0] == tabuleiro[1][1] && tabuleiro[1][1] == tabuleiro[1][2]){
         ganhador = tabuleiro[1][0];
-    } else if(tabuleiro[2][0] == tabuleiro[2][1] &&  tabuleiro[2][1] == tabuleiro[2][2]){
+    } else if(tabuleiro[2][0] == tabuleiro[2][1] && tabuleiro[2][1] == tabuleiro[2][2]){
         ganhador = tabuleiro[2][0];
-    } else if(tabuleiro[0][0] == tabuleiro[1][0] &&  tabuleiro[1][0] == tabuleiro[2][0]){
+    } else if(tabuleiro[0][0] == tabuleiro[1][0] && tabuleiro[1][0] == tabuleiro[2][0]){
         ganhador = tabuleiro[0][0];
-    } else if(tabuleiro[0][1] == tabuleiro[1][1] &&  tabuleiro[1][1] == tabuleiro[2][1]){
+    } else if(tabuleiro[0][1] == tabuleiro[1][1] && tabuleiro[1][1] == tabuleiro[2][1]){
         ganhador = tabuleiro[0][1];
-    } else if(tabuleiro[0][2] == tabuleiro[1][2] &&  tabuleiro[1][2] == tabuleiro[2][2]){
+    } else if(tabuleiro[0][2] == tabuleiro[1][2] && tabuleiro[1][2] == tabuleiro[2][2]){
         ganhador = tabuleiro[0][2];
-    } else if(tabuleiro[0][0] == tabuleiro[1][1] &&  tabuleiro[1][1] == tabuleiro[2][2]){
+    } else if(tabuleiro[0][0] == tabuleiro[1][1] && tabuleiro[1][1] == tabuleiro[2][2]){
         ganhador = tabuleiro[0][0];
-    } else if(tabuleiro[0][2] == tabuleiro[1][1] &&  tabuleiro[1][1] == tabuleiro[2][0]){
+    } else if(tabuleiro[0][2] == tabuleiro[1][1] && tabuleiro[1][1] == tabuleiro[2][0]){
         ganhador = tabuleiro[0][2];
     }
 

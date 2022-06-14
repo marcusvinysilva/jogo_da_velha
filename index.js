@@ -5,10 +5,10 @@ let tabuleiro = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']];
 let letras = ['X', 'O', 'X', 'O', 'X', 'O', 'X', 'O', 'X'];
 let x = 0;
 let o = 0;
+let i = 0;
 let ganhador;
 
 for(let letra of letras){
-    
     console.log('Jogo da Velha')
     console.log('  | 0, 1, 2');
     console.log(`0 | ${tabuleiro[0]}`);
@@ -20,6 +20,8 @@ for(let letra of letras){
         let linha = +prompt('Linha: ');
         let coluna = +prompt('Coluna: ');
 
+        i++;
+        
         if(linha < 0 || linha > 2){
             console.log('Linha inválida!');
             continue;

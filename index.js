@@ -20,7 +20,7 @@ for(let letra of letras){
         let linha = +prompt('Linha: ');
         let coluna = +prompt('Coluna: ');
 
-        i++;
+        
         
         if(linha < 0 || linha > 2){
             console.log('Linha inválida!');
@@ -34,6 +34,7 @@ for(let letra of letras){
                 continue;
             } else {
                 tabuleiro[linha][coluna] = letra;
+                i++;
                 break;
             }
         }

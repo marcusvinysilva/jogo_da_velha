@@ -19,8 +19,6 @@ for(let letra of letras){
         console.log(`Onde você deseja marcar o ${letra}?`);
         let linha = +prompt('Linha: ');
         let coluna = +prompt('Coluna: ');
-
-        
         
         if(linha < 0 || linha > 2){
             console.log('Linha inválida!');
